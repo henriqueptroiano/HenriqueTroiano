@@ -63,17 +63,13 @@
                 </div>
             </div>
 
-            <div style="display:flex; align-items:center; gap: 1rem;">
+            <div style="display:flex; align-items:center; gap: 0.8rem;">
                 <button class="theme-toggle-btn mobile-only-theme" aria-label="Alternar Tema">
                     <i class="ph-fill ph-moon theme-icon"></i>
                 </button>
-                <div class="lang-switch mobile-only-lang">
-                    <button class="lang-btn active" data-lang="pt">PT</button>
-                    <button class="lang-btn" data-lang="en">EN</button>
-                </div>
                 <!-- Mobile Menu Toggle -->
                 <button class="menu-toggle" aria-label="Menu">
-                    <i class="ph ph-list"></i>
+                    <i class="ph ph-list" style="font-size: 1.8rem;"></i>
                 </button>
             </div>
         </div>
@@ -84,11 +80,17 @@
         <button class="close-menu" aria-label="Fechar Menu">
             <i class="ph ph-x"></i>
         </button>
+        
         <div class="mobile-nav-items">
             <a href="#about" class="mobile-link" data-i18n="nav-about">Sobre</a>
             <a href="#experience" class="mobile-link" data-i18n="nav-exp">Experiência</a>
             <a href="#skills" class="mobile-link" data-i18n="nav-skills">Competências</a>
-            <a href="#contact" class="mobile-link btn-primary" data-i18n="nav-contact">Contato</a>
+            <a href="#contact" class="mobile-link btn-primary" data-i18n="nav-contact" style="display: inline-flex; justify-content: center; width: max-content; margin: 0 auto; font-size: 1.2rem;">Contato</a>
+            
+            <div class="lang-switch" style="margin: 2rem auto 0; display: inline-flex;">
+                <button class="lang-btn active" data-lang="pt">PT</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
         </div>
     </div>
 
