@@ -32,4 +32,4 @@ Este projeto foi construído utilizando tecnologias web modernas para garantir p
 
 ---
 
-Desenvolvido por Bruno Fernandes
+Desenvolvido por [Bruno Fernandes](https://github.com/BrunoHF04)
